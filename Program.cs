@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Dynamic;
 
 namespace HelloWorld
 {
@@ -25,7 +26,7 @@ namespace HelloWorld
 
             // Way 1 : Create a dynamic object
 
-            dynamic oDynamic = new System.Dynamic.ExpandoObject();
+            dynamic oDynamic = new ExpandoObject();
             oDynamic.prop1="hello";
             oDynamic.prop2="hello2";
 
@@ -34,10 +35,10 @@ namespace HelloWorld
 
             // Way 2 : Create a dynamic object as dictionary
 
-            var oDynamicDic = new System.Dynamic.ExpandoObject() as IDictionary<string,string>;
-            oDynamicDic.Add("prop1","hello");
+            var oDynamicDic = new ExpandoObject() as IDictionary<string,object>;
+            oDynamicDic.Add("prop1","I am prop1 in a Dictionary");
 
-            Console.WriteLine($"DynamicDic Prop1 is : {oDynamicDic.prop1}");
+            Console.WriteLine($"DynamicDic Prop1 is : {oDynamicDic["prop1"]}");
             
         }
     }

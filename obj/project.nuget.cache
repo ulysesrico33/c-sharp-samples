@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9WUQAMiI7CYf7sp1zaaWni5vXAw7CEi2sXQMLWquZCbEFLY15xhDVbeGc0c9JVWL3ZzHev2W4CwQUmMOfte2eQ==",
+  "dgSpecHash": "z3P9vyJCFFDME6cO7Z3LLjxNNoMQ/Efb2CjNnuKRaF6yC7kmtZN6LKFwu62ruRDRLYbpn0niSC5oMrMg1kqJFg==",
   "success": true,
   "projectFilePath": "C:\\git_repo\\c-sharp-samples\\c-sharp-samples.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ulyses\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
