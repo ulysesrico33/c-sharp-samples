@@ -1,0 +1,15 @@
+C:\git_repo\c-sharp-samples\bin\Debug\net7.0\c-sharp-samples.exe
+C:\git_repo\c-sharp-samples\bin\Debug\net7.0\c-sharp-samples.deps.json
+C:\git_repo\c-sharp-samples\bin\Debug\net7.0\c-sharp-samples.runtimeconfig.json
+C:\git_repo\c-sharp-samples\bin\Debug\net7.0\c-sharp-samples.dll
+C:\git_repo\c-sharp-samples\bin\Debug\net7.0\c-sharp-samples.pdb
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\c-sharp-samples.csproj.AssemblyReference.cache
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\c-sharp-samples.GeneratedMSBuildEditorConfig.editorconfig
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\c-sharp-samples.AssemblyInfoInputs.cache
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\c-sharp-samples.AssemblyInfo.cs
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\c-sharp-samples.csproj.CoreCompileInputs.cache
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\c-sharp-samples.dll
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\refint\c-sharp-samples.dll
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\c-sharp-samples.pdb
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\c-sharp-samples.genruntimeconfig.cache
+C:\git_repo\c-sharp-samples\obj\Debug\net7.0\ref\c-sharp-samples.dll
