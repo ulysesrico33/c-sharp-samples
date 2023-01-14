@@ -3,7 +3,7 @@ using System.Dynamic;
 
 namespace HelloWorld
 {
-    class Sample 
+class Sample 
 {
 
     public string MyProperty1 { get; set; }
@@ -16,15 +16,20 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             // Create an instance of class Sample
+            Console.Write("Sample class");
+            Console.WriteLine("-------------------------------------------------");
             Sample oSample = new Sample();
 
             oSample.MyProperty1 = "value1";
             oSample.MyProperty2 = "value2";
 
             Console.WriteLine($"Prop1 is : {oSample.MyProperty1}");
-            Console.WriteLine($"Prop1 is : {oSample.MyProperty2}");
+            Console.WriteLine($"Prop2 is : {oSample.MyProperty2}");
 
             // Way 1 : Create a dynamic object
+
+            Console.Write("First way to set properties in Dynamic object");
+            Console.WriteLine("-------------------------------------------------");
 
             dynamic oDynamic = new ExpandoObject();
             oDynamic.prop1="hello";
@@ -35,10 +40,15 @@ namespace HelloWorld
 
             // Way 2 : Create a dynamic object as dictionary
 
-            var oDynamicDic = new ExpandoObject() as IDictionary<string,object>;
-            oDynamicDic.Add("prop1","I am prop1 in a Dictionary");
+            Console.Write("Adding properties with dynamic object with IDictionary");
+            Console.WriteLine("-------------------------------------------------");
 
-            Console.WriteLine($"DynamicDic Prop1 is : {oDynamicDic["prop1"]}");
+            var oDynamicDic = new ExpandoObject() as IDictionary<string,object>;
+            var anything="One";
+            var prop1=$"property{anything}";
+            oDynamicDic.Add(prop1,"I am prop1 in a Dictionary");
+
+            Console.WriteLine($"DynamicDic Prop1 is : {oDynamicDic["propertyOne"]}");
             
         }
     }
